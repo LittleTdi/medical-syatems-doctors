@@ -1,0 +1,13 @@
+<view class="change-password">
+  <view class="text-center title">修改提取密码</view>
+  <view class="text-center text-sm text-lighter">请设置提取密码，用于提取</view>
+  <view class="input">
+    <input class='inputText' value='{{input1}}'></input>
+    <input class='inputText' value='{{input2}}'></input>
+    <input class='inputText' value='{{input3}}'></input>
+    <input class='inputText' value='{{input4}}'></input>
+    <input class='inputText' value='{{input5}}'></input>
+    <input class='inputText' value='{{input6}}'></input>
+  </view>
+  <input class='inputnum' auto-focus="true" maxlength='6' type='number' bindinput="inputnum"></input>
+</view>

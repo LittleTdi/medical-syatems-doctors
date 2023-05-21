@@ -1,0 +1,17 @@
+<view class="talk-record bg-white">
+  <view class="inp-search bg-white">
+    <input placeholder="搜索 订单(药品、科室)" style="background-image:url('../../../images/shouye/search.png')" bindfocus="toSearch" placeholder-class="text-gray"></input>
+  </view>
+  <view class="cate-search">
+    <view class="text-lg">按药品搜索</view>
+    <view class="d-flex flex-wrap">
+      <view class="text-green text-sm btn-search" wx:for="{{medical}}" wx:key="index">{{item}}</view>
+    </view>
+  </view>
+  <view class="cate-search">
+    <view class="text-lg">按科室搜索</view>
+    <view class="d-flex flex-wrap">
+      <view class="text-green text-sm btn-search" wx:for="{{ks}}" wx:key="index">{{item}}</view>
+    </view>
+  </view>
+</view>

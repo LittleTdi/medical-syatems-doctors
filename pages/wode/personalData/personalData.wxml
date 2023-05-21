@@ -1,0 +1,26 @@
+<view class="personal-data">
+  <view class="personal-avatar d-flex flex-between border-bottom">
+    <view class="texd-md">个人头像</view>
+    <view class="d-flex" bindtap="changeAvatar">
+      <view class="avatar" style="margin-right:12rpx;">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+    </view>
+  </view>
+  <view class="d-flex flex-between border-bottom" bindtap="toProfile">
+    <view class="text-md">个人简介</view>
+    <image src="../../../images/mine/to.png" class="to"></image>
+  </view>
+  <view class="d-flex flex-between border-bottom">
+    <view class="text-md">擅长介绍</view>
+    <image src="../../../images/mine/to.png" class="to"></image>
+  </view>
+  <view class="d-flex flex-between border-bottom" bindtap="toQualificationChange">
+    <view class="text-md">资质变更</view>
+    <image src="../../../images/mine/to.png" class="to"></image>
+  </view>
+  <view class="d-flex flex-between border-bottom" bindtap="toChangePwd">
+    <view class="text-md">修改密码</view>
+    <image src="../../../images/mine/to.png" class="to"></image>
+  </view>
+</view>

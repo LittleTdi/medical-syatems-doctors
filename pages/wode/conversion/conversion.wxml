@@ -1,0 +1,20 @@
+<view class="conversion-record">
+  <picker mode="date" fields="month" value="{{date}}" start="2016-01-01" end="2020-12-31" bindchange="getDateTime">
+    <view class="selectDate text-lg text-boldwww">
+        {{years}}年{{months}}月
+        <image src="../../../images/expand.png"></image>
+    </view>
+  </picker>
+  <view class="record">
+    <view class="d-flex flex-between border-bottom">
+      <view>
+        <view class="text-md">兑换记录</view>
+        <view>
+          <text class="text-sm text-xlighter">2020-1-03</text>
+          <text class="text-sm text-xlighter" style="margin-left:12rpx;">12:00</text>
+        </view>
+      </view>
+      <view class="text-bold text-lg text-yellow">-1000</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,36 @@
+.drug-combination-detail{
+  width:100%;
+  height:100vh;
+  background:#F8F8F8;
+}
+.drug-combination-detail .content{
+  padding-top:40rpx;
+  padding-left:32rpx;
+}
+.drug-combination-detail .content-item{
+  width:682rpx;
+  height:160rpx;
+  border-radius:20rpx;
+  margin-bottom:40rpx;
+  padding:32rpx 40rpx 32rpx 48rpx;
+}
+.drug-combination-detail .content-item image{
+  width:96rpx;
+  height:96rpx;
+  margin-right:44rpx;
+}
+.drug-combination-detail .rublish{
+  width:38rpx;
+  height:34rpx;
+}
+.drug-combination-detail>.edit{
+  padding:40rpx 32rpx 8rpx 0;
+}
+.drug-combination-detail .content-item .count{
+  width:132rpx;
+}
+.drug-combination-detail .content-item .count>image{
+  width:40rpx;
+  height:40rpx;
+  margin:0;
+}

@@ -1,0 +1,40 @@
+<view class="sy-index">
+  <view class="banner">
+    <swiper indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
+      indicator-color="rgb(255,255,255)"
+      indicator-active-color="#4CAF50">
+      <block wx:for="{{banner}}" wx:key="index">
+        <swiper-item>
+            <image mode="widthFix" src="{{item}}"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="content">
+    <view class="content-item">
+      <view class="content-item-content">
+        <image src="../../../images/shouye/yqhz.png"></image>
+        <view>邀请患者</view>
+      </view>
+      <image src="../../../images/mine/to.png"></image>
+    </view>
+    <view class="content-item">
+      <view class="content-item-content">
+        <image src="../../../images/shouye/sys.png"></image>
+        <view>扫一扫</view>
+      </view>
+      <image src="../../../images/mine/to.png"></image>
+    </view>
+    <view class="content-item">
+      <view class="content-item-content">
+        <image src="../../../images/shouye/wdyf.png"></image>
+        <view>我的药房</view>
+      </view>
+      <image src="../../../images/mine/to.png"></image>
+    </view>
+  </view>
+  <view class="news">
+    消息：【重磅】2020年1月31日，肇庆首例新型冠状病毒感···
+  </view>
+</view>

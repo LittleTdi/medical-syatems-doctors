@@ -1,0 +1,13 @@
+.doctor-talk-record>view:last-child button{
+  width:96rpx;
+  height:56rpx;
+  background:rgba(255,255,255,0.04);
+  border:1px solid rgba(76,175,80,1);
+  opacity:1;
+  border-radius:32rpx;
+  padding:0;
+  line-height: 2;
+}
+.doctor-talk-record input{
+  width:590rpx !important;
+}

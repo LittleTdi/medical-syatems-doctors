@@ -1,0 +1,44 @@
+<view class="drug-combination-detail">
+  <view class="text-right padding-lr edit" wx:if="{{isEdit}}">
+    <image class="rublish" src="../../../images/rublish.png" bindtap="openDialog"></image>
+  </view>
+  <view class="content">
+    <view class="content-item bg-white d-flex flex-between">
+      <view class="d-flex">
+        <image src="../../../images/shouye/3.jpg"></image>
+        <view>
+          <view class="text-md text-light">vc银翘片</view>
+          <view class="text-sm">￥88.00</view>
+        </view>
+      </view>
+      <view class="text-md text-light" wx:if="{{!isEdit}}">x2</view>
+      <view class="count d-flex flex-between" wx:if="{{isEdit}}">
+        <image src="../../../images/reduce.png"></image>
+        <view class="text-md text-light">1</view>
+        <image src="../../../images/add.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="keep">
+    <button class="text-lg text-center text-white bg-green" bindtap="edit">
+      {{isEdit==true? '完成':'编辑'}}
+    </button>
+  </view>
+</view>
+<view class="weui-demo-dialog weui-demo-dialog_show" wx:if="{{istrue==true}}">
+  <view class="weui-mask" bindtap="closeDialog"></view>
+  <view class="weui-dialog__wrp" bindtap="closeDialog">
+      <view class="weui-dialog" catchtap="stopEvent">
+        <view class="weui-dialog__hd">
+          <view class="weui-dialog__title">提示</view>
+        </view>
+        <view class="weui-dialog__bd text-center" class="text-lg text-dark" style="padding:40rpx 0 60rpx 0;">
+          确认将该药房组合删除
+        </view>
+        <view class="weui-dialog__ft">
+            <view class="weui-dialog__btn weui-dialog__btn_default text-lg text-green" bindtap="closeDialog">取消</view>
+            <view class="weui-dialog__btn text-lg text-light" bindtap="closeDialog">确定</view>
+        </view>
+      </view>
+  </view>
+</view>

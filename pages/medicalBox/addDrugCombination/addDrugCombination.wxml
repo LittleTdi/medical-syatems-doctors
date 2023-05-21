@@ -1,0 +1,32 @@
+<view class="add-drug-combination bg-white padding-lr">
+  <view class="d-flex flex-between normal-height border-bottom ">
+    <view class="text-md text-light">药品组合名称</view>
+    <input value="风热感冒" 
+      placeholder="请输入" 
+      placeholder-class="text-md text-xlighter text-right" 
+      class="text-right text-light text-md"
+    ></input>
+  </view>
+  <view class="add-drug d-flex flex-between">
+    <view class="text-md text-light">组合药品</view>
+    <view class="add text-sm text-white bg-green text-center">添加</view>
+  </view>
+  <view class="drugs"> 
+    <view class="drug-item d-flex flex-between">
+      <view class="d-flex">
+        <image src="../../../images/shouye/6.jpg" class="drug-img"></image>
+        <view>
+          <view class="text-md text-light">京制黄牛解毒片</view>
+          <view class="text-sm" style="margin-top:14rpx;">￥88.00</view>
+        </view>
+      </view>
+      <view class="d-flex flex-between change-count">
+        <image src="../../../images/reduce.png" class="change-icon"></image>
+        <view>1</view>
+        <image src="../../../images/add.png" class="change-icon"></image>
+      </view>
+    </view>
+  </view>
+  <view
+  class="keep text-center text-lg text-white {{drugList.length>0? 'bg-green':'keep-disabled'}}">保存</view>
+</view>

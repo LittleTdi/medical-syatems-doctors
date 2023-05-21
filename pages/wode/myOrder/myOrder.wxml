@@ -1,0 +1,21 @@
+<view class="my-order">
+  <view class="inp-search bg-white">
+    <input placeholder="搜索 订单(药品、科室)" style="background-image:url('../../../images/shouye/search.png')" bindfocus="toSearch" placeholder-class="text-gray"></input>
+  </view>
+  <view class="card bg-white">
+    <view class="d-flex flex-between" style="margin-bottom:8rpx;">
+      <view class="text-sm text-lighter">推荐药方</view>
+      <view class="text-sm">咳嗽</view>
+    </view>
+    <view style="margin-top:24rpx;" class="d-flex">
+        <image src="../../../images/shouye/2.jpg"></image>
+        <view style="margin-left:32rpx;">
+          <view class="text-md text-light">京制黄牛解毒片</view>
+          <view class="d-flex flex-between" style="width:490rpx;">
+            <view class="text-sm">￥12.00</view>
+            <view class="text-sm text-lighter">x1</view>
+          </view>
+        </view>
+    </view>
+  </view> 
+</view>

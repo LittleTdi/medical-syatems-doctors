@@ -1,0 +1,22 @@
+.drug-cate{
+  width:100%;
+  padding:0 32rpx;
+}
+.drug-cate .drug-item{
+  height:200rpx;
+  padding-top:40rpx;
+}
+.drug-cate .drug-item>image{
+  width:160rpx;
+  height:160rpx;
+}
+.drug-cate .drug-item>view:last-child{
+  width:494rpx;
+  margin-left:32rpx;
+}
+.drug-cate .drug-item .add{
+  width:96rpx;
+  height:56rpx;
+  border-radius:32rpx;
+  line-height: 2;
+}

@@ -1,0 +1,9 @@
+<view class="certification">
+  <view class="text-md border-bottom">医师执业证</view>
+  <view class="upload d-flex flex-center align-center">
+    <view bindtap="uploadImage">
+      <image src="../../../images/upload.png"></image>
+    </view>
+  </view>
+  <view class="text-lg text-white bg-green keep text-center">保存</view>
+</view>

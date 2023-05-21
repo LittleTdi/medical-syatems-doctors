@@ -1,0 +1,4 @@
+<view class="doctor-enter flex-column flex-center align-center">
+  <image src="../../../images/code.png"></image>
+  <view class="text-md" style="margin-top:40rpx;">邀请医生入驻平台</view>
+</view>

@@ -1,0 +1,19 @@
+<view class="prescription">
+    <view class="text-sm text-lighter" style="margin-bottom:20rpx;">2020年1月</view>
+  <view class="card bg-white">
+    <view 
+      class="text-sm text-lighter" 
+      style="margin-bottom:32rpx;"
+    >推荐药方</view>
+    <view class="d-flex">
+        <image src="../../../images/shouye/2.jpg"></image>
+        <view style="margin-left:32rpx;">
+          <view class="text-md text-light">京制黄牛解毒片</view>
+          <view class="d-flex flex-between" style="width:490rpx;">
+            <view class="text-sm">￥12.00</view>
+            <view class="text-sm text-lighter">x1</view>
+          </view>
+        </view>
+    </view>
+  </view>
+</view>

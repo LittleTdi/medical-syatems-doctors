@@ -1,0 +1,24 @@
+<view class="my-integral">
+  <view class="head" style="background-image:url('../../../images/integral_bg.jpg')">
+    <view class="text-md text-white text-right">明细</view>
+    <view class="text-center text-bold text-white" style="font-size:42px;margin-top:20rpx;">1000</view>
+    <view class="text-sm text-white text-center">积分余额</view>
+    <view class="text-center">
+      <button class="text-lighter text-center text-sm">积分兑换</button>
+    </view>
+  </view>
+  <view class="content">
+    <view class="d-flex flex-between border-bottom">
+      <view class="text-md">兑换记录</view>
+      <image src="../../../images/mine/to.png" class="to"></image>
+    </view>
+    <view class="d-flex flex-between border-bottom">
+      <view class="text-md">银行卡</view>
+      <image src="../../../images/mine/to.png" class="to"></image>
+    </view>
+    <view class="d-flex flex-between border-bottom">
+      <view class="text-md">提取密码</view>
+      <image src="../../../images/mine/to.png" class="to"></image>
+    </view>
+  </view>
+</view>

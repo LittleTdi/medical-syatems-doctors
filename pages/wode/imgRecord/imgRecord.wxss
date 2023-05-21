@@ -1,0 +1,12 @@
+.img-record{
+  padding:32rpx;
+}
+.img-record>image{
+  width:168rpx;
+  height:168rpx;
+  margin-right:4rpx;
+  margin-bottom:4rpx;
+}
+.img-record>image:nth-child(4n+1){
+  margin-right:0;
+}

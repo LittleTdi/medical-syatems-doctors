@@ -1,0 +1,21 @@
+<view class="qualification-change bg-white">
+  <view class="d-flex flex-between border-bottom">
+    <view class="text-md">从医时长</view>
+    <input 
+      placeholder="请输入" 
+      placeholder-class="text-md text-xlighter text-right"
+      class="text-right"
+    >
+    </input>
+  </view>
+  <view class="d-flex flex-between border-bottom">
+    <view class="text-md">资格证书</view>
+    <input 
+      placeholder="请输入" 
+      placeholder-class="text-md text-xlighter text-right"
+      class="text-right"
+    >
+    </input>
+  </view>
+  <button class="save text-md text-white">保存</button>
+</view>

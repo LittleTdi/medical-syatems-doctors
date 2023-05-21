@@ -1,0 +1,26 @@
+.profile{
+  padding:40rpx 0 32rpx 0;
+  height:100vh;
+  width:100%;
+  position: relative;
+}
+.profile>view{
+  padding:0 32rpx;
+}
+.profile>view>view{
+  padding:24rpx 0;
+}
+.profile textarea{
+  height:334rpx;
+}
+.profile>.save{
+  width:686rpx;
+  height:96rpx;
+  background:rgba(76,175,80,1);
+  opacity:1;
+  border-radius:32rpx;
+  bottom:32rpx;
+  left:32rpx;
+  position: absolute;
+  line-height: 2;
+}

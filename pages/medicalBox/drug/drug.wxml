@@ -1,0 +1,12 @@
+<view class="drug-cate bg-white">
+  <view class="drug-item d-flex">
+    <image src="../../../images/shouye/1.jpg"></image>
+    <view>
+      <view>博苏 富马酸比索洛尔片</view>
+      <view class="d-flex flex-between">
+        <view class="text-normal text-sm">￥21</view>
+        <view class="add bg-green text-white text-sm text-center">添加</view>
+      </view>
+    </view>
+  </view>
+</view>

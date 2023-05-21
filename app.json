@@ -1,0 +1,68 @@
+{
+  "pages":[
+    "pages/shouye/index/index",
+    "pages/wode/doctorTalkRecord/doctorTalkRecord",
+    "pages/wode/talkRecord/talkRecord",
+    
+    "pages/patientList/index/index",
+    "pages/medicalBox/drug/drug",
+    "pages/medicalBox/addDrugCombination/addDrugCombination",
+    "pages/medicalBox/index/index",
+    "pages/wode/index/index",
+   
+    "pages/wode/imgRecord/imgRecord",
+    "pages/wode/prescription/prescription",
+    "pages/wode/qualificationChange/qualificationChange",
+    "pages/wode/profile/profile",
+    "pages/wode/orderDetail/orderDetail",
+    "pages/wode/searchMedical/searchMedical",
+    "pages/wode/myOrder/myOrder",
+    
+    "pages/wode/exchange/exchange",
+    "pages/wode/integral/integral",
+    "pages/wode/certification/certification",
+    "pages/wode/changePwd/changePwd",
+    "pages/wode/bankCard/bankCard",
+    "pages/wode/basicAuthentication/basicAuthentication",
+    "pages/wode/doctorEnter/doctorEnter",
+    "pages/wode/conversion/conversion",
+    "pages/wode/personalData/personalData"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath": "pages/shouye/index/index",
+        "text": "首页",
+        "iconPath": "images/tabs/index.png",
+        "selectedIconPath": "images/tabs/index_active.png"
+      },
+      {
+        "pagePath": "pages/patientList/index/index",
+        "text": "患者列表",
+        "iconPath": "images/tabs/patient_list.png",
+        "selectedIconPath": "images/tabs/patient_list_active.png"
+      },
+      {
+        "pagePath": "pages/medicalBox/index/index",
+        "text": "医药箱",
+        "iconPath": "images/tabs/mbox.png",
+        "selectedIconPath": "images/tabs/mbox_active.png"
+      },
+      {
+        "pagePath": "pages/wode/index/index",
+        "text": "首页",
+        "iconPath": "images/tabs/mine.png",
+        "selectedIconPath": "images/tabs/mine_active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

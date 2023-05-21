@@ -1,0 +1,115 @@
+.medical-box .tab,.medical-box .tab>view{
+  height:112rpx;
+  background:#fff;
+}
+.medical-box .tab{
+  padding:0 32rpx;
+}
+.medical-box .tab>view{
+  width:144rpx;
+  font-size: 14px;
+}
+.medical-box .active{
+  font-size:18px !important;
+  font-family:Microsoft YaHei;
+  font-weight:bold;
+  line-height:24px;
+  color:rgba(76,175,80,1);
+  border-bottom:2px solid #4CAF50;
+}
+.medical-box .tab>view:last-child{
+  margin-left:40rpx;
+}
+.ypfl,.tsyy{
+  width:100%;
+  height:434rpx;
+  padding:20rpx 32rpx;
+  background:#fff;
+  margin-top:20rpx;
+}
+.yp-item{
+  width:160rpx;
+  height:160rpx;
+  margin-right:15.6rpx;
+  margin-top:16rpx;
+}
+.yp-item image{
+  width:100rpx;
+  height:100rpx;
+}
+.yp-item:nth-child(4n){
+  margin-right:0;
+}
+.medical-box scroll-view{
+  height:104rpx;
+  width:674rpx;
+  background:#fff;
+  padding:20rpx 0 20rpx 32rpx;
+}
+.medical-box .ypzh{
+  margin-top:20rpx;
+}
+.medical-box .zh>view:last-child{
+  width:72rpx;
+  height:104rpx;
+  background:#fff;
+  text-align: center;
+  padding-top:32rpx;
+}
+.medical-box .zh image{
+  width:32rpx;
+  height:32rpx;
+}
+.medical-box .zh button{
+  width:160rpx;
+  height:64rpx;
+  background:rgba(76,175,80,0.1);
+  opacity:0.8;
+  border-radius:32rpx;
+  margin-right:12rpx;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+.medical-box .zh .selected{
+  background:#4CAF50;
+  color:#fff;
+}
+.ypzh .content{
+  padding:40rpx 32rpx;
+  background:#fff;
+}
+.ypzh .content .content-itm{
+  width:332rpx;
+  height:338rpx;
+  box-shadow:0px 2px 8px rgba(0,0,0,0.08);
+  opacity:0.8;
+  border-radius: 32rpx;
+  box-sizing: border-box;
+}
+.ypzh .content .content-itm:nth-child(2n){
+  margin-left:22rpx;
+}
+.ypzh .content .content-itm>view:first-child{
+  height:56rpx;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left:24rpx;
+  width:332rpx;
+}
+.ypzh .content .content-itm>view:last-child{
+  padding:12rpx 24rpx 24rpx 18rpx;
+}
+.ypzh .content .content-itm image{
+  width:44rpx;
+  height:44rpx;
+  margin-right:16rpx;
+}
+.ypzh .content .content-itm:last-child>image{
+  width:120rpx;
+  height:120rpx;
+  margin-top:109rpx;
+}
+.ypzh .content .content-itm view.d-flex{
+  height:44rpx;
+  margin-bottom:6rpx;
+}

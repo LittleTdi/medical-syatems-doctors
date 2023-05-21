@@ -1,0 +1,13 @@
+<view class="bank-card">
+  <!-- <view class="card">
+    <view class="d-flex" style="margin-top:6rpx;">
+      <image src="../../../images/bank_logo.png"></image>
+      <view class="text-md" style="margin-left:26rpx;">中国银行</view>
+    </view>
+    <view class="text-sm text-lighter" style="margin-left:80rpx;">储蓄卡</view>
+    <view>···· ···· ···· 2565</view>
+  </view> -->
+  <view class="no-card">
+    <image src="../../../images/upload.png"></image>
+  </view>
+</view>

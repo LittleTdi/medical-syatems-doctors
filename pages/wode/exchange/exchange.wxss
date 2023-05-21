@@ -1,0 +1,18 @@
+.exchange .card{
+  background:#fff;
+  margin-left:32rpx;
+  width:686rpx;
+  height:348rpx;
+  margin-top:40rpx;
+  border-radius: 36rpx;
+  padding:32rpx 32rpx 24rpx 32rpx;
+}
+.exchange button{
+  width:560rpx !important;
+  height:96rpx;
+  background:rgba(76,175,80,1);
+  opacity:1;
+  border-radius:32rpx;
+  margin-top:40rpx;
+  line-height: 2;
+}

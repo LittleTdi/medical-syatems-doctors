@@ -1,0 +1,4 @@
+<view class="img-record">
+  <view class="text-sm text-lighter" style="margin-bottom:20rpx;">2020年1月</view>
+  <image src="../../../images/shouye/{{item}}.jpg" wx:for="{{imgs}}" wx:key="index"></image>
+</view>

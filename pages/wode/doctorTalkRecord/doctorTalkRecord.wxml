@@ -1,0 +1,21 @@
+<view class="doctor-talk-record">
+  <view class="inp-search bg-white d-flex flex-between">
+    <input placeholder="搜索 订单(药品、科室)" style="background-image:url('../../../images/shouye/search.png')" bindfocus="toSearch" placeholder-class="text-gray"></input>
+    <view class="text-md">取消</view>
+  </view>
+  <view 
+    class="text-xm text-xlighter text-center" 
+    style="margin-top:72rpx;"
+  >搜索指定内容</view>
+  <view style="margin-top:40rpx;" class="d-flex flex-center">
+    <view>
+      <button class="text-green text-md border-green">日期</button>
+    </view>
+    <view style="margin-left:32rpx;">
+      <button class="text-green text-md border-green">图片</button>
+    </view>
+    <view style="margin-left:32rpx;">
+      <button class="text-green text-md border-green">药方</button>
+    </view>
+  </view>
+</view>

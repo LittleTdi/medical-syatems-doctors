@@ -1,0 +1,13 @@
+<view class="profile bg-white">
+  <view class="border-bottom" >
+    <textarea 
+      maxlength="100" 
+      placeholder="简单介绍一下自己..." 
+      placeholder-class="text-md text-xlighter"
+      auto-focus="true"
+    >
+    </textarea> 
+    <view class="text-md text-xlighter text-right">0/100</view>
+  </view>
+  <button class="text-lg text-white save">保存</button>
+</view>

@@ -1,0 +1,86 @@
+<view class="medical-box">
+  <view class="tab d-flex">
+    <view class="flex-column flex-center {{tab==1? 'active':''}}" bindtap="changeNav1">常用药箱</view>
+    <view class="flex-column flex-center {{tab==2? 'active':''}}" bindtap="changeNav2">药品组合</view>
+  </view>
+  <view class="cyyx" wx:if="{{tab==1}}">
+    <view class="ypfl">
+      <view class="d-flex flex-between">
+        <view class="text-md">药品分类</view>
+        <image class="to" src="../../../images/mine/to.png"></image>
+      </view>
+      <view class="d-flex flex-wrap">
+        <view class="yp-item" wx:for="{{yp}}" wx:key="index">
+          <view>
+            <view class="text-center">
+              <image src="../../../images/shouye/{{index+1}}.jpg"></image>
+            </view>
+            <view class="text-center text-sm">{{item}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="tsyy">
+      <view class="d-flex flex-between">
+        <view class="text-md">特殊用药</view>
+        <image class="to" src="../../../images/mine/to.png"></image>
+      </view>
+      <view class="d-flex flex-wrap">
+        <view class="yp-item" wx:for="{{yp}}" wx:key="index">
+          <view>
+            <view class="text-center">
+              <image src="../../../images/shouye/{{index+1}}.jpg"></image>
+            </view>
+            <view class="text-center text-sm">{{item}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="ypzh" wx:if="{{tab==2}}">
+    <view class="zh d-flex">
+      <scroll-view scroll-x="true">
+        <view class="d-flex">
+          <view wx:for="{{disease}}" wx:key="index">
+            <button class="{{index==0? 'selected':''}}">{{item}}</button>
+          </view>
+        </view>
+      </scroll-view>
+      <view bindtap="openDialog">
+        <image src="../../../images/plus.png"></image>
+      </view>
+    </view>
+    <view class="content d-flex flex-wrap">
+      <view class="content-itm">
+        <view class="border-bottom text-sm">风热感冒</view>
+        <view>
+          <view class="d-flex" wx:for="{{medical}}" wx:key="index">
+            <image src="../../../images/shouye/{{index+6}}.jpg"></image>
+            <view class="text-sm">{{item}}</view>
+          </view>
+        </view>
+      </view>
+      <view class="content-itm text-center">
+        <image  src="../../../images/upload.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="weui-demo-dialog weui-demo-dialog_show" wx:if="{{istrue==true}}">
+  <view class="weui-mask" bindtap="closeDialog"></view>
+  <view class="weui-dialog__wrp" bindtap="closeDialog">
+      <view class="weui-dialog" catchtap="stopEvent">
+        <view class="weui-dialog__hd">
+          <view class="weui-dialog__title">添加分类</view>
+        </view>
+        <view class="weui-dialog__bd text-center border-bottom" style="padding:40rpx 60rpx;width:478rpx;margin:40rpx auto;">
+          <input bindinput="addYp" auto-focus="true"></input>
+        </view>
+        <view class="weui-dialog__ft">
+            <view class="weui-dialog__btn weui-dialog__btn_default text-lg text-green" bindtap="closeDialog">取消</view>
+            <view class="weui-dialog__btn text-lg text-light" bindtap="closeDialog">确定</view>
+        </view>
+      </view>
+  </view>
+</view>

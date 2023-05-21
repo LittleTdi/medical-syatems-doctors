@@ -1,0 +1,18 @@
+.talk-record{
+  width:100%;
+  height:100vh;
+}
+.cate-search{
+  margin-top:40rpx;
+  padding:0 32rpx;
+}
+.cate-search:last-child{
+  margin-top:100rpx;
+}
+.cate-search .btn-search{
+  padding:12rpx 20rpx;
+  border:1px solid #4CAF50;
+  border-radius: 32rpx;
+  margin-top:16rpx;
+  margin-right:16rpx;
+}

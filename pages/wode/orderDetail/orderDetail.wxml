@@ -1,0 +1,26 @@
+<view class="order-detail">
+  <view class="patient-info border-bottom flex-column flex-center">
+    <view class="text-md text-xlighter">患者信息</view>
+    <view>
+      <text class="text-md text-light">王大鹏</text>
+      <text class="text-md text-light" style="margin-left:24rpx;">156****2326</text>
+    </view>
+  </view>
+  <view class="symptom border-bottom d-flex">
+    <text class="text-md text-xlighter">症状</text>
+    <text class="text-md text-light" style="margin-left:40rpx;">咳嗽</text>
+  </view>
+  <view class="title text-md text-light d-flex">订单详情</view>
+  <view class="order-list">
+    <view class="order-item d-flex flex-between">
+      <view class="d-flex">
+        <image src="../../../images/shouye/7.jpg"></image>
+        <view style="margin-left:44rpx;">
+          <view class="text-md text-light">京制黄牛解毒片</view>
+          <view class="text-sm">￥88.00</view>
+        </view>
+      </view>
+      <view class="text-md">x1</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,20 @@
+<view class="patient-list">
+  <view class="inp-search">
+    <input placeholder="搜索 订单(药品、科室)" style="background-image:url('../../../images/shouye/search.png')" bindfocus="toSearch"></input>
+  </view>
+  <view class="list">
+    <view class="list-item d-flex flex-between" wx:for="{{list}}" wx:key="index">
+      <image src="../../../images/shouye/9.jpg"></image>
+      <view class="d-flex flex-between border-bottom">
+          <view class="flex-column flex-center">
+            <view class="text-lg text-bold" style="margin-bottom:6rpx;">莉莉{{item}}</view>
+            <view class="text-sm text-lighter">你应该是着凉了，普通感冒，不严重。</view>
+          </view>
+          <view class="flex-column flex-around align-end">
+            <view class="text-xs text-xlighter">上午08:00</view>
+            <view class="tag">1</view>
+          </view>
+      </view>
+    </view>
+  </view>
+</view>
